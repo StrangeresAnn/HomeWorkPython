@@ -8,7 +8,6 @@ a = 1
 k = 10
 import math
 p = math.pi
-# p = 3.14159265358979323846
 while a < i:
     k *= 10
     a += 1

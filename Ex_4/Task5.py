@@ -12,4 +12,4 @@ with open('File3.txt','a') as pole:
     pole.write('7x^2 + 6x')
 
 
-
+# Я пыталась, но получилось то, что получилось

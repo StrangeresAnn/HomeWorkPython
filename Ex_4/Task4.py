@@ -20,11 +20,11 @@ def rnd():
 for i in range(len(list1)):
     list1[i] = rnd()
 for i in range(len(list1)+1):
-    if i < (len(list1)):
-        st += f'{list1[i]}x^{k} + '
+    if k == 1:
+        st += f'{list1[k]}x + '
         k -= 1
-    elif i == (len(list1)-1):
-        st += f'{list1[k]}x'
+    elif i < (len(list1)):
+        st += f'{list1[i]}x^{k} + '
         k -= 1
     elif i == (len(list1)):
         st += f'{list1[k]}'

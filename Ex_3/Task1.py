@@ -5,7 +5,6 @@
 
 # - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
-# list1 = list(map(int,input("Введите числа через пробел: ").split()))
 list1 = input("Введите числа через пробел: ").split()
 for i in range(len(list1)):
     list1[i] = int(list1[i])

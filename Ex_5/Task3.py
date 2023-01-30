@@ -6,8 +6,8 @@
 # stroka = "3a4b2c3b"
 
 # Вывод: stroka = "aaabbbbccbbb"
-import os.path
 
+import os.path
 
 def coding(text):
     count = 0
@@ -43,8 +43,6 @@ with open(os.path.join( 'coding.txt'), 'r') as f:
 
 res_coding = coding(file1)
 print(res_coding)
-
-
 print(decoding(res_coding))
 
 

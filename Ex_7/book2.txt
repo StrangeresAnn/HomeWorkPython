@@ -1,0 +1,7 @@
+Rin, Boo, 213421, eng
+Kitte, Toy, 213513, eng
+Ann, Smirnova, 213774, ru
+Kate, Ray, 343264, eng
+Tim, Maison, 214942, eng
+Ruby, Armstrong, 232942, eng
+Den, Armstrong, 438324, eng

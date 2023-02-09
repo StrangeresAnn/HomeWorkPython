@@ -1,7 +1,7 @@
 from log import get_id_user, get_input_data, get_result, save_log
 from controller import process_func, process_step
 from telegram import Bot
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 TOKEN = "5915956816:AAGWZYlBpZG37Z0j7G9mq4kMJys406bK9v4"
 bot = Bot(TOKEN)
